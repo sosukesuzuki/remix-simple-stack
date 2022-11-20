@@ -32,5 +32,9 @@
     "prettier": "^2.7.1",
     "typescript": "^4.9.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "volta": {
+    "node": "18.12.1",
+    "npm": "8.19.3"
+  }
 }
