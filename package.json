@@ -1,0 +1,32 @@
+{
+  "name": "remix-simple-stack",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "lint": "eslint --ext .ts,.tsx app",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "@remix-run/node": "*",
+    "@remix-run/react": "*",
+    "@remix-run/serve": "*",
+    "@remix-run/server-runtime": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "*",
+    "@remix-run/eslint-config": "*",
+    "@types/eslint": "^8.4.10",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3"
+  },
+  "license": "MIT"
+}
